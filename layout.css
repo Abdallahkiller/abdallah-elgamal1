@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;1,400&family=Tilt+Prism&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:  smooth;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #E08A27  ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #E08A27;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #FFDFA6;
+}
+
+
+.main1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/wallpaperflare.com_wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.main1 h2{
+    color: #2D2D37;
+    font-size: 2.8em;
+    font-weight: 500; 
+    margin-left: 375px;
+   }
+
+.nuts{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/3.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}   
+
+.nuts .main8{
+    color: #2D2D37;
+    font-size: 2.5em;
+    font-weight: 400; 
+    margin-left: 650px;
+    margin-bottom: 500px;
+}
+
+
+
+.bon{
+    color: #000;
+    font-size: 2.2em;
+    font-weight: 500; 
+    display: flex;
+
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.candy{
+    color: #000;
+    font-size: 2.2em;
+    font-weight: 500; 
+    display: flex;  
+    margin-bottom: 100px;
+    margin-left: 400px;
+}

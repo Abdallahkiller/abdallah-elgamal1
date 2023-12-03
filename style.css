@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;1,400&family=Tilt+Prism&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:  smooth;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #2125AB  ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.logo :hover{
+    color: #38F6FE;
+}
+
+.navigation a{
+    color: #2125AB;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #38F6FE;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+img{
+    background-size: cover;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/back1.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.main h2{
+    color: #2125AB;
+    font-size: 1.8em;
+    font-weight: 500;   
+   }
+   
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;   
+    color: #01021F;
+    font-size:3em ;
+    font-weight: 600;
+}   
+
+.main h3{
+    color: #A3CFEA;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;     
+}
+
+.main-btn{
+    color: #fff;
+    background-color: #FDB74C;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    background-color:  #38F6FE;
+    transform: scale(1.1);
+}
+
+.social-icons{
+    color: #fff;
+    font-size: 2.7em;
+    padding-right: 30px;    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #2125AB;
+    font-size: 2.2em;
+    font-weight: 800;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction:row-reverse;  
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    background-color: rgb(0, 0, 0);
+    width: 19.25em;
+    box-shadow: 0 15px 25px rgba(1 1 1 /15%);
+    margin-right: -202;
+    margin-top: 0px;    
+    margin-bottom: 50px;
+    border-radius: 5px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #FDB74C;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+    color: #fff;
+}
+
+.info a{
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+
+.info h3{
+    color: #2125AB;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.location{
+    background-color: #0A0D53;
+}
+
+.location .content{
+    margin-top: 30px;
+}
+
+.location-card{
+    background-color: #fff;
+    border: 10px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s em;
+}
+
+.location-card:hover{
+    transform: scale(1.2);
+}
+
+.location-card:hover .img2{
+    color: #167ACB;
+    opacity: 0.5;
+   
+}
+
+.img2 img{
+    width: 100%;
+}
+
+.location-info1{
+    padding: 1em;
+}
+
+.location-info{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.loc-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color:#8B3B12;
+}
+
+.more-details:hover{
+    color:#167ACB ;
+}
+
+.footer{
+    background-color:#0A0D53;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: black;
+}
+
+@media (max-width:5000px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding:80px 20px;
+    }
+
+    .main-content h2{
+            font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+}
+
+
+   

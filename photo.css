@@ -1,0 +1,68 @@
+.photo1{
+    display: flex;
+    position:absolute;
+    width: 15%;
+    min-height: 50vh;
+    background: url(img/1.jpg) no-repeat;
+    background-size: cover;
+    margin-left: 250px;
+}
+.photo2{
+    display: flex;
+    position:absolute;
+    width: 15%;
+    min-height: 50vh;
+    background: url(img/back.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 1000px;
+}
+.photo3{
+    display: flex;
+    position:absolute;
+    width: 15%;
+    min-height: 50vh;
+    background: url(img/2.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 1000px;
+    margin-left: 500px;
+}
+.photo4{
+    display: flex;
+    position:absolute;
+    width: 15%;
+    min-height: 50vh;
+    background: url(img/3.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 1000px;
+    margin-left: 750px;
+}
+.photo5{
+    display: flex;
+    position:absolute;
+    width: 15%;
+    min-height: 50vh;
+    background: url(img/4.jpg) no-repeat;
+    background-size:cover;
+    margin-bottom: 1000px;
+    margin-left: 1000px;
+}
+.photo6{
+    display: flex;
+    position:absolute;
+    width: 15%;
+    min-height: 50vh;
+    background: url(img/5.jpg) no-repeat;
+    background-size:cover;
+    margin-bottom: 1000px;
+    margin-left: 1250px;
+}
+ section .photo11{
+    display: flex;
+    position:absolute;
+    width: 15%;
+    min-height: 50vh;
+    background: url(img/11.jpg) no-repeat;
+    background-size:cover;
+    margin-bottom: 1000px;
+    margin-left: 1000px;
+}
